@@ -3,15 +3,19 @@
 # 1. Setting Up the Dataset
 
 To ensure the program works correctly, you need to set up the dataset properly in Google Drive. Follow these steps:
+
 	1.	Create a Folder in Google Drive:
-	    Navigate to your Google Drive and create a folder named Dataset_AI_BookedBy in the My Drive.
+	    	Navigate to your Google Drive and create a folder named Dataset_AI_BookedBy in the My Drive.
+      
 	2.	Upload the Dataset:
-  	  Upload the provided synthetic dataset file named synthetic_purchase_data.csv into the Dataset_AI_BookedBy folder.
+  	  	Upload the provided synthetic dataset file named synthetic_purchase_data.csv into the Dataset_AI_BookedBy folder.
+      
 	3.	Ensure the File Path:
-	    The program expects the dataset to be located at this specific path: /content/drive/My Drive/Dataset_AI_BookedBy/synthetic_purchase_data.csv
-      If you use a different folder name or file path, update the file_path variable in the code accordingly.
-  4.	Generating the Dataset (if not available):
-	    If the dataset is missing, the program will automatically generate a new one and save it to the specified path in Google Drive.
+	    	The program expects the dataset to be located at this specific path: /content/drive/My Drive/Dataset_AI_BookedBy/synthetic_purchase_data.csv
+      	If you use a different folder name or file path, update the file_path variable in the code accordingly.
+	
+	4.	Generating the Dataset (if not available):
+	    	If the dataset is missing, the program will automatically generate a new one and save it to the specified path in Google Drive.
 
 # 2. Installing Required Libraries
      Before running the program, ensure you have the necessary Python libraries installed. Use the following command to install them:
@@ -52,5 +56,5 @@ You can execute the program in Google Colab or any local Python environment. Fol
       	•	Collaborative Filtering (Surprise Library)
       	•	TensorFlow-based Recommendation System
       	•	Verify the recommendations by running the respective functions:
-                recommend_products_collaborative(customer_id='C0102')
-                recommend_products_tensorflow(customer_id='C0102')
+                    recommend_products_collaborative(customer_id='C0102')
+                    recommend_products_tensorflow(customer_id='C0102')
